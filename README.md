@@ -29,3 +29,8 @@ This project mimics the core UI/UX of Amazon, featuring a homepage, product list
 
 ---
 
+## Live Demo
+
+You can view the live version of this project here:
+
+👉 [Amazon Clone on Vercel](https://amazone-clone-beryl-rho.vercel.app/)
