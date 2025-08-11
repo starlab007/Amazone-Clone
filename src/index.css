@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --amazon-yellow: #f0c14b;
+  --amazon-dark: #0f1111;
+  --amazon-nav: #232F3E;
+}
+
+body { @apply bg-gray-100; font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Arial; }
+
+/* helpers */
+.header-search { @apply w-full md:w-[630px] h-10 rounded overflow-hidden flex; }
+.header-search input { @apply flex-1 px-3 outline-none; }
+.box-img { background-size: cover; background-position: center; }
+.card-shadow { box-shadow: 0 8px 24px rgba(0,0,0,0.08); }
