@@ -12,7 +12,7 @@ export default function Home() {
     <div>
       <div
         className="h-[340px] bg-cover flex justify-center items-end"
-        style={{ backgroundImage: "url('public/hero.jpg')" }}
+        style={{ backgroundImage: "url('/hero.jpg')" }}
       >
         <div className="bg-white text-black h-10 w-4/5 mb-6 flex items-center justify-center">
           Big sale — Up to 50% off select items
